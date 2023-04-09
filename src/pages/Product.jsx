@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { HeaderSection } from '../components';
 
 const Product = () => {
   useEffect(()=>{
@@ -6,7 +7,10 @@ const Product = () => {
   },[])
   
   return (
-    <div className='min-h-[100vh]'>Product</div>
+    <div className='min-h-[100vh]'>
+      <HeaderSection title={"Buy Product Now"}/>
+
+    </div>
   )
 }
 
