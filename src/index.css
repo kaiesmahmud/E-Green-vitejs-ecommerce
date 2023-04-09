@@ -6,4 +6,9 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  background-color: #d5fefd;
+  background-image: linear-gradient(315deg, #98f9e6 0%, #f7e7f7 74%);
+}
+.header{
+
 }

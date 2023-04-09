@@ -5,7 +5,7 @@ import { Home, Product, Shop } from "./pages"
 function App() {
 
   return (
-    <div className='text-xl'>
+    <div className="w-full">
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
