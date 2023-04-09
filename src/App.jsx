@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom"
-import { Footer, Navbar } from "./components"
+import { AddressBar, Footer, Navbar } from "./components"
 import { Contact, Home, Product, Products, Shop } from "./pages"
 
 function App() {
 
   return (
     <div className="w-full">
+      <AddressBar/>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
