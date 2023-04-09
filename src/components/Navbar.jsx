@@ -24,11 +24,11 @@ const Navbar = () => {
       },
     ]
     return (           
-        <header className="p-2 sticky top-0 header lg:px-5 py-3 lg:py-0 text-xs md:text-base lg:text-lg backdrop-blur-3xl z-30">
+        <header className="p-2 text-slate-600 sticky top-0 header lg:px-5 py-3 lg:py-0 text-xs md:text-base lg:text-lg backdrop-blur-3xl z-30">
             <nav className=' flex flex-col md:gap-4 lg:flex-row justify-between  w-full '>
                 <div className='text-[2rem] lg:text-[3rem] font-extralight flex justify-between items-center'>
                     <NavLink to={'/'} onClick={()=>setOpenMenu(false)}>
-                      <p className='p-2'>E-Green</p>
+                      <p className='p-2 text-teal-600'>E-Green</p>
                     </NavLink>
                     <div className='text-3xl lg:hidden cursor-pointer' onClick={changeOpenMenu}>
                         {openMenu? <VscClose/> :<HiBars2/>}
