@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Card = ({linkUrl,product,category}) => {
     
   return (
-    <Link  to={linkUrl}  className='w-[48%] lg:w-[30%] '>
+    <Link  to={linkUrl}  className='w-[48%] md:w-[30%] lg:w-[20%] '>
               <div className=' rounded-lg  bg-black/10 overflow-hidden '>
                 <div className=' overflow-hidden'>
                   <img 
