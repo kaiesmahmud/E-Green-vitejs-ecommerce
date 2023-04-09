@@ -1,6 +1,7 @@
 export const allProductsData  = [
     {
       category: 'Shovels',
+      categoryUrl:'shovels',
       products: [
         {
             name: 'Square Point Shovel',
@@ -83,6 +84,7 @@ export const allProductsData  = [
     },
     {
       category: 'Hoes',
+      categoryUrl:'hoes',
       products: [
         {
             name: 'Draw Hoe',
@@ -166,6 +168,8 @@ export const allProductsData  = [
     
     {
       category: 'Pruning Tools',
+      categoryUrl:'pruningtools',
+
       products: [
         {
             name: 'Hand Pruners',
@@ -248,6 +252,8 @@ export const allProductsData  = [
     },
     {
       category: 'Rakes',
+      categoryUrl:'rakes',
+
       products: [
         {
             name: 'Leaf Rake',
@@ -330,6 +336,7 @@ export const allProductsData  = [
     },
     {
       category: 'Watering Tools',
+      categoryUrl:'wateringtools',
       products: [
         {
             name: 'Hose Nozzle',
@@ -412,6 +419,8 @@ export const allProductsData  = [
     },
     {
         category: "Garden Gloves",
+        categoryUrl:'gardengloves',
+
         products:[
             {
                 name: 'Leather Work Gloves',
@@ -494,6 +503,8 @@ export const allProductsData  = [
     },
     {
         category: "Garden Sprayers",
+        categoryUrl:'gardensprayers',
+
         products:[
             {
                 name: 'Backpack Sprayer',

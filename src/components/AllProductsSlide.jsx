@@ -22,7 +22,7 @@ const AllServicesSlides = () => {
             loop={true}
             grabCursor={true}
             autoplay={{
-              delay: 2500,
+              delay: 4500,
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
@@ -31,7 +31,7 @@ const AllServicesSlides = () => {
             {
               allProductsData.map(i=>(
                 <SwiperSlide key={i.category} className='p-5 bg-black bg-opacity-10 rounded hover:bg-opacity-5 transition-all ease-in duration-150 '>
-                  <Link to={`shop/${i.category}`} >
+                  <Link to={`shop/${i.categoryUrl}`} >
                     <div>
                       <p> {i.category}</p>
                       <p className='text-xs font-semibold py-3'>Available products : {i.products?.length}</p>
@@ -51,7 +51,7 @@ const AllServicesSlides = () => {
             grabCursor={true}
             loop={true}
               autoplay={{
-                delay: 2500,
+                delay: 4500,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
@@ -60,7 +60,7 @@ const AllServicesSlides = () => {
             {
               allProductsData.map(i=>(
                 <SwiperSlide key={i.category} className='p-2 bg-black bg-opacity-10 rounded hover:bg-opacity-5 transition-all ease-in duration-150 '>
-                  <Link to={`shop/${i.category}`} >
+                  <Link to={`shop/${i.categoryUrl}`} >
                     <div>
                       <p> {i.category}</p>
                       <p className='text-xs font-light py-3'>Available products : {i.products?.length}</p>
@@ -80,7 +80,7 @@ const AllServicesSlides = () => {
             grabCursor={true}
             loop={true}
               autoplay={{
-                delay: 2500,
+                delay: 4500,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay]}
@@ -88,7 +88,7 @@ const AllServicesSlides = () => {
             {
               allProductsData.map(i=>(
                 <SwiperSlide key={i.category} className='p-2 bg-black bg-opacity-10 rounded hover:bg-opacity-5 transition-all ease-in duration-150 '>
-                  <Link to={`shop/${i.category}`} >
+                  <Link to={`shop/${i.categoryUrl}`} >
                     <div>
                       <p className='text-xs'> {i.category}</p>
                       <p className='text-xs font-light  py-1'>Available products : {i.products?.length}</p>
