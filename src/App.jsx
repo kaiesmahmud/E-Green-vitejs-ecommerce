@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { Footer, Navbar } from "./components"
-import { Home, Product, Shop } from "./pages"
+import { Contact, Home, Product, Products, Shop } from "./pages"
 
 function App() {
 
@@ -10,7 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/shop" element={<Shop/>} />
-        <Route path="/shop/:id" element={<Product/>} />
+        <Route path="/shop/:catagory" element={<Products/>} />
+        <Route path="/shop/:catagory/:id" element={<Products/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </div>
