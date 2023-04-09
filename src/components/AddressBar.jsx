@@ -4,7 +4,7 @@ import {BsFacebook, BsInstagram, BsTwitter, BsPinterest, BsReddit} from 'react-i
 
 const AddressBar = () => {
   return (
-    <div>
+    <div className='md:py-2 p-1'>
          <div className='header text-xs md:text-sm  font-light flex justify-between'>
               <div className='flex flex-wrap justify-start md:justify-center items-center gap-3'>
                 <address>RoseLands, Sydney, Australia</address>
